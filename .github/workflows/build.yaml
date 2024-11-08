@@ -1,0 +1,42 @@
+name: Build
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build-library:
+    name: Build Library
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.1.0
+        with:
+          node-version-file: .nvmrc
+
+      - name: Setup Yarn
+        uses: threeal/setup-yarn-action@v2.0.0
+
+      - name: Check Formatting
+        run: |
+          yarn format
+          git diff --exit-code HEAD
+
+      - name: Check Lint
+        run: yarn lint
+
+      - name: Test Library
+        run: yarn test
+
+      - name: Package Library
+        run: yarn pack
+
+      - name: Upload Package
+        uses: actions/upload-artifact@v4.4.3
+        with:
+          path: package.tgz
+          if-no-files-found: error
+          overwrite: true

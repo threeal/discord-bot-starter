@@ -1,0 +1,47 @@
+{
+  "name": "my_fibonacci",
+  "version": "0.0.0",
+  "description": "A sample Node.js project",
+  "keywords": [
+    "sample",
+    "fibonacci"
+  ],
+  "homepage": "https://github.com/threeal/nodejs-starter#readme",
+  "bugs": {
+    "url": "https://github.com/threeal/nodejs-starter/issues",
+    "email": "alfi.maulana.f@gmail.com"
+  },
+  "repository": "github:threeal/nodejs-starter",
+  "license": "Unlicense",
+  "author": "Alfi Maulana <alfi.maulana.f@gmail.com>",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": "dist/bin.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write --cache .",
+    "lint": "eslint",
+    "prepack": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.0",
+    "@types/yargs": "^17.0.33",
+    "eslint": "^9.14.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  },
+  "packageManager": "yarn@4.5.1"
+}

@@ -1,0 +1,8 @@
+.*
+!.git*
+!.nvmrc
+
+dist/
+node_modules/
+
+package.tgz
