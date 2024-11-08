@@ -1,11 +1,9 @@
 {
-  "include": ["src"],
-  "exclude": ["**/*.test.*"],
+  "include": ["src/bin.ts"],
   "compilerOptions": {
     "exactOptionalPropertyTypes": true,
     "strict": true,
     "module": "node16",
-    "declaration": true,
     "outDir": "dist",
     "esModuleInterop": true,
     "target": "es2022",
