@@ -3730,9 +3730,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"my_fibonacci@workspace:.":
+"my_bot@workspace:.":
   version: 0.0.0-use.local
-  resolution: "my_fibonacci@workspace:."
+  resolution: "my_bot@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.14.0"
     "@types/jest": "npm:^29.5.14"
@@ -3746,7 +3746,7 @@ __metadata:
     typescript-eslint: "npm:^8.13.0"
     yargs: "npm:^17.7.2"
   bin:
-    my_fibonacci: dist/bin.js
+    my_bot: dist/bin.js
   languageName: unknown
   linkType: soft
 

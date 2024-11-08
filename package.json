@@ -1,19 +1,6 @@
 {
-  "name": "my_fibonacci",
-  "version": "0.0.0",
-  "description": "A sample Node.js project",
-  "keywords": [
-    "sample",
-    "fibonacci"
-  ],
-  "homepage": "https://github.com/threeal/nodejs-starter#readme",
-  "bugs": {
-    "url": "https://github.com/threeal/nodejs-starter/issues",
-    "email": "alfi.maulana.f@gmail.com"
-  },
-  "repository": "github:threeal/nodejs-starter",
-  "license": "Unlicense",
-  "author": "Alfi Maulana <alfi.maulana.f@gmail.com>",
+  "name": "my_bot",
+  "private": true,
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
