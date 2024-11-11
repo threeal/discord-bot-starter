@@ -11,13 +11,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "yargs": "^17.7.2"
+    "discord.js": "^14.16.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.9.0",
-    "@types/yargs": "^17.0.33",
     "eslint": "^9.14.0",
     "jest": "^29.7.0",
     "prettier": "^3.3.3",
