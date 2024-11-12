@@ -2100,8 +2100,6 @@ __metadata:
     tsx: "npm:^4.19.2"
     typescript: "npm:^5.6.3"
     typescript-eslint: "npm:^8.13.0"
-  bin:
-    my_bot: dist/bin.js
   languageName: unknown
   linkType: soft
 

@@ -2,10 +2,9 @@
   "name": "my_bot",
   "private": true,
   "type": "module",
-  "bin": "dist/bin.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/bin.ts",
+    "check-types": "tsc",
+    "start": "tsx src/bin.ts",
     "format": "prettier --write --cache .",
     "lint": "eslint"
   },

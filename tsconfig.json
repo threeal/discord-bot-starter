@@ -1,10 +1,10 @@
 {
-  "include": ["src/bin.ts"],
+  "include": ["src"],
   "compilerOptions": {
     "exactOptionalPropertyTypes": true,
     "strict": true,
     "module": "node16",
-    "outDir": "dist",
+    "noEmit": true,
     "esModuleInterop": true,
     "target": "es2022",
     "skipLibCheck": true
