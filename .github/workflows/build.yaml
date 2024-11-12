@@ -5,8 +5,8 @@ on:
   push:
     branches: [main]
 jobs:
-  build-library:
-    name: Build Library
+  check-project:
+    name: Check Project
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Project
