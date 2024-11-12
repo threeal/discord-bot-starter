@@ -509,6 +509,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sapphire/plugin-logger@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "@sapphire/plugin-logger@npm:4.0.2"
+  dependencies:
+    "@sapphire/timestamp": "npm:^1.0.3"
+    colorette: "npm:^2.0.20"
+  checksum: 10c0/d1672f454e3dd4d8e08e9790e021541011faf407a10c0ea780e159e62fba7afb1994f97e293522b886e6c517fdc28842567f906d6294b33a07e071e6439e3435
+  languageName: node
+  linkType: hard
+
 "@sapphire/ratelimits@npm:^2.4.10":
   version: 2.4.11
   resolution: "@sapphire/ratelimits@npm:2.4.11"
@@ -553,6 +563,13 @@ __metadata:
   dependencies:
     tslib: "npm:^2.8.1"
   checksum: 10c0/04047dbba597df2db5dfac13bffcf6b0e4757c8bfea62841b56971c4d9f6b19bacba5b53e9cb5adf10f734f7c324d5c1054eb248d9b6395b07ff85fb236ec3f6
+  languageName: node
+  linkType: hard
+
+"@sapphire/timestamp@npm:^1.0.3":
+  version: 1.0.5
+  resolution: "@sapphire/timestamp@npm:1.0.5"
+  checksum: 10c0/e4375da147820274280ea6420204b480b53489b6f539f5f1f10a9db0fdd99b73cb3603aad7756e885aec1db45c3c325b3e965c8239f84913cdb4797f9f0fe1ba
   languageName: node
   linkType: hard
 
@@ -970,6 +987,13 @@ __metadata:
   bin:
     color-support: bin.js
   checksum: 10c0/8ffeaa270a784dc382f62d9be0a98581db43e11eee301af14734a6d089bd456478b1a8b3e7db7ca7dc5b18a75f828f775c44074020b51c05fc00e6d0992b1cc6
+  languageName: node
+  linkType: hard
+
+"colorette@npm:^2.0.20":
+  version: 2.0.20
+  resolution: "colorette@npm:2.0.20"
+  checksum: 10c0/e94116ff33b0ff56f3b83b9ace895e5bf87c2a7a47b3401b8c3f3226e050d5ef76cf4072fb3325f9dc24d1698f9b730baf4e05eeaf861d74a1883073f4c98a40
   languageName: node
   linkType: hard
 
@@ -2067,6 +2091,7 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^9.14.0"
     "@sapphire/framework": "npm:^5.3.1"
+    "@sapphire/plugin-logger": "npm:^4.0.2"
     "@types/node": "npm:^22.9.0"
     discord-api-types: "npm:^0.37.104"
     discord.js: "npm:^14.16.3"

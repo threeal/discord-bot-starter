@@ -1,4 +1,4 @@
-import { Listener } from "@sapphire/framework";
+import { container, Listener } from "@sapphire/framework";
 import type { Client } from "discord.js";
 
 export class ReadyListener extends Listener {
@@ -11,6 +11,6 @@ export class ReadyListener extends Listener {
   }
 
   override run(client: Client) {
-    console.info("Logged in as:", client.user?.tag);
+    container.logger.info("Logged in as:", client.user?.tag);
   }
 }
