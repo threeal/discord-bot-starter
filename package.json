@@ -3,10 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check-types": "tsc",
-    "start": "tsx src/bin.ts",
-    "format": "prettier --write --cache .",
-    "lint": "eslint"
+    "check": "prettier --check . && eslint && tsc",
+    "start": "tsx src/bin.ts"
   },
   "dependencies": {
     "@sapphire/framework": "^5.3.1",
