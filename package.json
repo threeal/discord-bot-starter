@@ -2,7 +2,6 @@
   "name": "my_bot",
   "private": true,
   "type": "module",
-  "main": "src/bin.ts",
   "bin": "dist/bin.js",
   "scripts": {
     "build": "tsc",
