@@ -2,6 +2,7 @@
   "name": "my_bot",
   "private": true,
   "type": "module",
+  "main": "src/bin.ts",
   "bin": "dist/bin.js",
   "scripts": {
     "build": "tsc",
@@ -10,6 +11,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@sapphire/framework": "^5.3.1",
+    "discord-api-types": "^0.37.104",
     "discord.js": "^14.16.3"
   },
   "devDependencies": {
