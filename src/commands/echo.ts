@@ -1,4 +1,8 @@
-import { SlashCommandBuilder } from "discord.js";
+import {
+  CacheType,
+  ChatInputCommandInteraction,
+  SlashCommandBuilder,
+} from "discord.js";
 
 export default {
   schema: new SlashCommandBuilder()
@@ -10,4 +14,10 @@ export default {
         .setDescription("Message to echo back")
         .setRequired(true),
     ),
+  async execute(
+    interaction: ChatInputCommandInteraction<CacheType>,
+  ): Promise<void> {
+    const message = interaction.options.getString("message", true);
+    await interaction.reply(message);
+  },
 };
