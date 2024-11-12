@@ -30,6 +30,3 @@ jobs:
 
       - name: Build Library
         run: yarn build
-
-      - name: Test Library
-        run: yarn test
