@@ -1,5 +1,4 @@
 {
-  "name": "my_bot",
   "private": true,
   "type": "module",
   "scripts": {
