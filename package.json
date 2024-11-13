@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "check": "prettier --check . && eslint && tsc",
-    "start": "tsx src/bin.ts"
+    "start": "tsx src/index.ts"
   },
   "dependencies": {
     "@sapphire/framework": "^5.3.1",
