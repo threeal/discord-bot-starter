@@ -12,4 +12,5 @@ try {
   await client.login();
 } catch (err) {
   container.logger.error("Failed to login:", err);
+  process.exitCode = 1;
 }
