@@ -6,7 +6,6 @@ updates:
       interval: daily
     commit-message:
       prefix: chore
-    labels: [chore]
 
   - package-ecosystem: github-actions
     directory: /
@@ -14,7 +13,6 @@ updates:
       interval: daily
     commit-message:
       prefix: chore
-    labels: [chore]
 
   - package-ecosystem: npm
     directory: /
@@ -22,5 +20,4 @@ updates:
       interval: daily
     commit-message:
       prefix: chore
-    labels: [chore]
     versioning-strategy: increase
