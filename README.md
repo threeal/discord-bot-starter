@@ -90,7 +90,7 @@ docker build -t discord-bot .
 Then run the Docker image as a service using the following command:
 
 ```sh
-docker run -d --restart unless-stopped discord-bot
+docker run -dt discord-bot
 ```
 
 Refer to [this documentation](https://docs.docker.com/guides/) for more information on using Docker for managing containerized applications.
