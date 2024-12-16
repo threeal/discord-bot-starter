@@ -6,4 +6,4 @@ RUN corepack enable yarn
 RUN yarn workspaces focus --production
 COPY . .
 
-CMD yarn start
+ENTRYPOINT ["yarn", "start"]
