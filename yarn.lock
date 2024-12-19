@@ -1043,10 +1043,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.37.111":
-  version: 0.37.111
-  resolution: "discord-api-types@npm:0.37.111"
-  checksum: 10c0/c5f497fdd34ff63bb9759a2cf6972ea5834730ddfa66a6e167d4eaef0082353e3cdf62602266614cb75a503aad06761594586739434a96e19b51845e16cc5534
+"discord-api-types@npm:^0.37.112":
+  version: 0.37.112
+  resolution: "discord-api-types@npm:0.37.112"
+  checksum: 10c0/09b69df53794b601ba391944c3e6518f2c7c68647d93aaf9ba70e1c764a27a1aa6c0dabab6c23a2c08e0a69525518d89653da81e5b158bc77b8a1ba2dbe0923e
   languageName: node
   linkType: hard
 
@@ -2188,7 +2188,7 @@ __metadata:
     "@sapphire/framework": "npm:^5.3.1"
     "@sapphire/plugin-logger": "npm:^4.0.2"
     "@types/node": "npm:^22.10.2"
-    discord-api-types: "npm:^0.37.111"
+    discord-api-types: "npm:^0.37.112"
     discord.js: "npm:^14.16.3"
     eslint: "npm:^9.17.0"
     prettier: "npm:^3.4.2"
