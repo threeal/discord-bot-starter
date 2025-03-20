@@ -1,0 +1,19 @@
+pre-commit:
+  piped: true
+  jobs:
+    - name: fix formatting
+      run: pnpm prettier --write --ignore-unknown {staged_files}
+
+    - name: fix lint
+      run: pnpm eslint --no-warn-ignored --fix {staged_files}
+
+    - name: check types
+      run: pnpm tsc
+      glob:
+        - src/*.ts
+        - .nvmrc
+        - pnpm-lock.yaml
+        - tsconfig.json
+
+    - name: check diff
+      run: git diff --exit-code {staged_files}
