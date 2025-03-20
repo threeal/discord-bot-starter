@@ -60,12 +60,6 @@ After obtaining the access token, export it as a `DISCORD_TOKEN` variable in you
 
 Develop the bot application by modifying the files under the [`src`](./src) directory according to the project requirements. For more detailed guidance on developing the bot application, refer to the [Sapphire documentation](https://sapphirejs.dev/docs/General/Welcome) and the [TypeScript documentation](https://www.typescriptlang.org/docs/).
 
-Every time the code is written, check if it adheres to the standard conventions with the following command:
-
-```sh
-pnpm check
-```
-
 After you're done, run the bot application using the following command:
 
 ```sh

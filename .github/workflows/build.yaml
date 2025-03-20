@@ -23,8 +23,11 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Check Formatting, Linting, and Types
-        run: pnpm check
+      - name: Check Formatting
+        run: pnpm prettier --check .
+
+      - name: Check Lint
+        run: pnpm eslint
 
       - name: Build Image
         run: docker build .

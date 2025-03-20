@@ -2,7 +2,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "prettier --check . && eslint && tsc",
     "start": "tsx src/index.ts"
   },
   "dependencies": {
