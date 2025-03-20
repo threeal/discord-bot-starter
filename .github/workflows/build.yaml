@@ -29,5 +29,8 @@ jobs:
       - name: Check Lint
         run: pnpm eslint
 
+      - name: Check Types
+        run: pnpm tsc --noEmit
+
       - name: Build Image
         run: docker build .
