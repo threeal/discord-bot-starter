@@ -1,9 +1,11 @@
 FROM node:23.10.0-alpine
 
-WORKDIR /app
-COPY package.json yarn.lock .
-RUN corepack enable yarn
-RUN yarn workspaces focus --production
-COPY . .
+ENV PNPM_HOME="$HOME/.local/share/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which sh)" sh -
 
-ENTRYPOINT ["yarn", "start"]
+WORKDIR /app
+COPY . .
+RUN pnpm install --prod
+
+ENTRYPOINT ["pnpm", "start"]

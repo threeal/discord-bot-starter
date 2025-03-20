@@ -9,7 +9,7 @@ This template provides a basic Discord bot project containing a sample bot appli
 - Minimal Discord bot project written in TypeScript with [ESM](https://nodejs.org/api/esm.html) support.
 - Uses Sapphire as the framework for creating the Discord bot application.
 - Supports building the Discord bot application as a Docker image.
-- Uses [Yarn](https://yarnpkg.com/) as the package manager with [Plug'n'Play](https://yarnpkg.com/features/pnp) support.
+- Uses [pnpm](https://pnpm.io//) as the package manager.
 - Supports formatting with [Prettier](https://prettier.io/) and linting with [ESLint](https://eslint.org/).
 - Preconfigured workflows for [Dependabot](https://docs.github.com/en/code-security/dependabot) and [GitHub Actions](https://github.com/features/actions).
 
@@ -41,25 +41,19 @@ It is recommended to use [nvm](https://github.com/nvm-sh/nvm) to manage the Node
 nvm install
 ```
 
-This template uses [Yarn](https://yarnpkg.com/) with [Plug'n'Play](https://yarnpkg.com/features/pnp) support as the package manager. If Yarn is not yet enabled, run the following command:
+This template uses [pnpm](https://pnpm.io/) as the package manager. If pnpm is not installed, follow [this guide](https://pnpm.io/installation) to install it. Then, install the project dependencies with:
 
 ```sh
-corepack enable yarn
+pnpm install
 ```
 
-Then, install the project dependencies with:
-
-```sh
-yarn install
-```
-
-For more information on Yarn, such as adding dependencies or running tools, refer to [this documentation](https://yarnpkg.com/getting-started).
+For more information on pnpm, including adding dependencies or running tools, refer to [this documentation](https://pnpm.io/pnpm-cli).
 
 ### Set Up the Bot Application
 
 Before developing the bot application, ensure that you have set up a bot application and obtained a token to be used to access the bot. If not, refer to [this documentation](https://discord.com/developers/docs/quick-start/getting-started) for setting up a new bot application and getting the access token.
 
-After obtaining the access token, export it as a `DISCORD_TOKEN` variable either in your shell environment or in an `.env.yarn` file.
+After obtaining the access token, export it as a `DISCORD_TOKEN` variable in your shell environment.
 
 ### Develop the Bot Application
 
@@ -68,18 +62,18 @@ Develop the bot application by modifying the files under the [`src`](./src) dire
 Every time the code is written, check if it adheres to the standard conventions with the following command:
 
 ```sh
-yarn check
+pnpm check
 ```
 
 After you're done, run the bot application using the following command:
 
 ```sh
-yarn start
+pnpm start
 ```
 
 ### Deploy the Bot Application
 
-The bot application can simply be deployed by running the `yarn start` command on a specific machine. Alternatively, the bot application can also be deployed as a [Docker](https://www.docker.com/) container, allowing it to run as a service while keeping the application contained in an isolated environment.
+The bot application can simply be deployed by running the `pnpm start` command on a specific machine. Alternatively, the bot application can also be deployed as a [Docker](https://www.docker.com/) container, allowing it to run as a service while keeping the application contained in an isolated environment.
 
 To do this, first, build the bot application into a Docker image using the following command:
 
@@ -90,7 +84,7 @@ docker build -t discord-bot .
 Then run the Docker image as a service using the following command:
 
 ```sh
-docker run -dt discord-bot
+docker run -dt -e DISCORD_TOKEN=$DISCORD_TOKEN discord-bot
 ```
 
 Refer to [this documentation](https://docs.docker.com/guides/) for more information on using Docker for managing containerized applications.

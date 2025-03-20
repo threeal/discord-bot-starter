@@ -20,5 +20,9 @@
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.1"
   },
-  "packageManager": "yarn@4.6.0"
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
 }
