@@ -14,7 +14,7 @@
   "devDependencies": {
     "@eslint/js": "^9.22.0",
     "@tsconfig/node23": "^23.0.1",
-    "@types/node": "^22.13.10",
+    "@types/node": "^22.13.13",
     "eslint": "^9.22.0",
     "lefthook": "^1.11.3",
     "prettier": "^3.5.3",
