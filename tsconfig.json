@@ -1,12 +1,7 @@
 {
+  "extends": "@tsconfig/node23",
   "include": ["src"],
   "compilerOptions": {
-    "exactOptionalPropertyTypes": true,
-    "strict": true,
-    "module": "node16",
-    "noEmit": true,
-    "esModuleInterop": true,
-    "target": "es2022",
-    "skipLibCheck": true
+    "noEmit": true
   }
 }
