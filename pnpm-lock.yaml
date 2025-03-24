@@ -27,6 +27,9 @@ importers:
       '@eslint/js':
         specifier: ^9.22.0
         version: 9.22.0
+      '@tsconfig/node23':
+        specifier: ^23.0.1
+        version: 23.0.1
       '@types/node':
         specifier: ^22.13.10
         version: 22.13.10
@@ -355,6 +358,9 @@ packages:
   '@sapphire/utilities@3.18.2':
     resolution: {integrity: sha512-QGLdC9+pT74Zd7aaObqn0EUfq40c4dyTL65pFnkM6WO1QYN7Yg/s4CdH+CXmx0Zcu6wcfCWILSftXPMosJHP5A==}
     engines: {node: '>=v14.0.0'}
+
+  '@tsconfig/node23@23.0.1':
+    resolution: {integrity: sha512-oJ0Y42TmsBLuLAfEbPTS5JXSbJJEEU4bULROS6zsL54Gdlw5aOy27rpsquotMKGf2auP6rkbfYsjl43WdGrNcg==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -1151,6 +1157,8 @@ snapshots:
   '@sapphire/timestamp@1.0.5': {}
 
   '@sapphire/utilities@3.18.2': {}
+
+  '@tsconfig/node23@23.0.1': {}
 
   '@types/estree@1.0.6': {}
 
