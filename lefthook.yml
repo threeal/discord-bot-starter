@@ -11,7 +11,7 @@ pre-commit:
       run: pnpm tsc
       glob:
         - src/*.ts
-        - .nvmrc
+        - .npmrc
         - pnpm-lock.yaml
         - tsconfig.json
 

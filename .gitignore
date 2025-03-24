@@ -1,7 +1,7 @@
 .*
 !.dockerignore
 !.git*
-!.nvmrc
+!.npmrc
 !.prettierignore
 
 node_modules/
