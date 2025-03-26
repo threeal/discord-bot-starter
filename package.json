@@ -12,7 +12,7 @@
     "tsx": "^4.19.3"
   },
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.23.0",
     "@tsconfig/node23": "^23.0.1",
     "@types/node": "^22.13.13",
     "eslint": "^9.22.0",
