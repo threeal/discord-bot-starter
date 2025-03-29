@@ -1,11 +1,14 @@
-FROM node:23.10.0-alpine
+FROM debian:bookworm-slim
 
-ENV PNPM_HOME="$HOME/.local/share/pnpm"
+ENV PNPM_HOME=/root/.local/share/pnpm
 ENV PATH="$PNPM_HOME:$PATH"
-RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.shrc" SHELL="$(which sh)" sh -
+
+RUN apt-get update && apt-get install -y wget
+RUN wget -qO- https://get.pnpm.io/install.sh | ENV=/root/.shrc SHELL="$(which sh)" sh -
 
 WORKDIR /app
 COPY . .
+
 RUN pnpm install --prod
 
 ENTRYPOINT ["pnpm", "start"]
