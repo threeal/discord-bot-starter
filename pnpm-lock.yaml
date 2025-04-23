@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sapphire/framework':
-        specifier: ^5.3.3
-        version: 5.3.3
+        specifier: ^5.3.4
+        version: 5.3.4
       '@sapphire/plugin-logger':
         specifier: ^4.0.2
         version: 4.0.2
@@ -325,8 +325,8 @@ packages:
     resolution: {integrity: sha512-LxjOAFXz81WmrI8XX9YaVcAZDjQj/1p78lZCvkAWZB1nphOwz/D0dU3CBejmhOWx5dO5CszTkLJMNR0xuCK+Zg==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
 
-  '@sapphire/framework@5.3.3':
-    resolution: {integrity: sha512-22DjLLtzkyRv8f0hnWbrZs1mbrwlpuD5+b2XoZAkw7OMklunwFUN9xCVlqAgJiSLo+/jAnyPaFHCNLJ7jGNTfw==}
+  '@sapphire/framework@5.3.4':
+    resolution: {integrity: sha512-LmglzQXVvmMaf7PLqFWwZY6aQv4aY71bW2i++NYrnDuvTvHuoqwmHtkPvpLnXSFmVmjiFBlZR7ktqjfLFpOgww==}
     engines: {node: '>=v18', npm: '>=7'}
 
   '@sapphire/lexure@1.1.10':
@@ -1131,7 +1131,7 @@ snapshots:
 
   '@sapphire/duration@1.2.0': {}
 
-  '@sapphire/framework@5.3.3':
+  '@sapphire/framework@5.3.4':
     dependencies:
       '@discordjs/builders': 1.10.1
       '@sapphire/discord-utilities': 3.4.4
