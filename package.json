@@ -7,7 +7,7 @@
   "dependencies": {
     "@sapphire/framework": "^5.3.4",
     "@sapphire/plugin-logger": "^4.0.2",
-    "discord-api-types": "^0.37.120",
+    "discord-api-types": "^0.38.1",
     "discord.js": "^14.18.0",
     "tsx": "^4.19.3"
   },
