@@ -1,4 +1,4 @@
-FROM node:23.11.0-alpine
+FROM node:24.0.0-alpine
 
 ENV PNPM_HOME="$HOME/.local/share/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
