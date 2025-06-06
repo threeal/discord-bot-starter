@@ -6,6 +6,7 @@ pre-commit:
       glob:
         - package.json
         - pnpm-lock.yaml
+        - pnpm-workspace.yaml
 
     - name: fix formatting
       run: pnpm prettier --write --ignore-unknown {staged_files}
