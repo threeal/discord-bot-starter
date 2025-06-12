@@ -9,7 +9,7 @@
     "@sapphire/plugin-logger": "^4.0.2",
     "discord-api-types": "^0.38.11",
     "discord.js": "^14.19.3",
-    "tsx": "^4.19.4"
+    "tsx": "^4.20.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",
