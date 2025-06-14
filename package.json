@@ -5,7 +5,7 @@
     "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@sapphire/framework": "^5.3.5",
+    "@sapphire/framework": "^5.3.6",
     "@sapphire/plugin-logger": "^4.0.2",
     "discord-api-types": "^0.38.11",
     "discord.js": "^14.19.3",
