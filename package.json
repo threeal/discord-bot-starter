@@ -16,7 +16,7 @@
     "@tsconfig/node24": "^24.0.1",
     "@types/node": "^22.15.29",
     "eslint": "^9.28.0",
-    "lefthook": "^1.11.13",
+    "lefthook": "^1.11.14",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.1"
