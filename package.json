@@ -5,7 +5,7 @@
     "start": "jiti src/index.ts"
   },
   "dependencies": {
-    "@sapphire/framework": "^5.3.6",
+    "@sapphire/framework": "^5.3.7",
     "@sapphire/plugin-logger": "^4.1.0",
     "discord-api-types": "^0.38.26",
     "discord.js": "^14.22.1",
