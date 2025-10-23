@@ -15,7 +15,7 @@
     "@eslint/js": "^9.36.0",
     "@tsconfig/node24": "^24.0.1",
     "@types/node": "^24.4.0",
-    "eslint": "^9.37.0",
+    "eslint": "^9.38.0",
     "lefthook": "^1.13.6",
     "prettier": "^3.6.2",
     "prettier-plugin-organize-imports": "^4.3.0",
