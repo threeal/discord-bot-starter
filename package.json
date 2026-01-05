@@ -12,7 +12,7 @@
     "jiti": "^2.6.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^9.39.2",
     "@tsconfig/node24": "^24.0.3",
     "@types/node": "^24.10.1",
     "eslint": "^9.39.2",
