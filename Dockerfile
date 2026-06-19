@@ -1,4 +1,4 @@
-FROM node:24.16.0-alpine
+FROM node:26.3.1-alpine
 
 ENV PNPM_HOME="$HOME/.local/share/pnpm"
 ENV PNPM_VERSION="10.33.4"
