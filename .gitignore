@@ -1,7 +1,6 @@
 .*
 !.dockerignore
 !.git*
-!.npmrc
 !.prettier*
 
 node_modules/
